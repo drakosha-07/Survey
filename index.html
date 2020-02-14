@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Survey</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Most important survey EVER.</h1>
+    <h3>Please fill out this survey and select from the options below. The survey will help the creators find out more about you and practice their coding skills. You'll alos get to vote for the best puppy!</h3>
+  </div>  
+  <div class="container">
+    <form id="formOne">
+      <div class="form-group">
+        <label for="name">What is your name?</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+        <label for="color">What is your favorite color?</label>
+        <input id="color" class="form-control" type="color">
+      </div>
+      <div class="form-group">
+        <label for="food">What is your favorite food?</label>
+        <select class="form-control" id="food">
+          <option>Pizza</option>
+          <option>Burritos</option>
+          <option>Soup</option>
+          <option>Ice-cream</option>
+          <option>Avocado Toast</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="rock-n-roll">
+            Rock-n-roll
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="music" value="Disco">
+            Disco
+          </label>
+        </div>
+        <div class="radio">
+            <label>
+              <input type="radio" name="music" value="Classical">
+              Classical
+            </label>
+          </div>
+          <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Heavy Metal">
+                Heavy Metal
+              </label>
+            </div>
+          </div>
+          <div class="form-group">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="puppy" value="pomeranian">
+                  <img class="imgsize" src="img/pomeranian.jpg">
+                </label>
+              </div>
+              <div class="radio">
+                  <label>
+                    <input type="radio" name="puppy" value="corgi">
+                    <img class="imgsize" src="img/corgi.jpg">
+                  </label>
+                </div>
+          
+      </div>
+
+
+
+      </form>
+  </div>
+</body>
+</html>
